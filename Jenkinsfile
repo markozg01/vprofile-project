@@ -4,7 +4,7 @@ pipeline {
 	
 	/*tools {
         maven "M3"
-    }/*
+    }*/
 
     environment {
         NEXUS_VERSION = "nexus3"
