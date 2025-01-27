@@ -21,6 +21,7 @@ pipeline {
         
         stage('BUILD'){
             steps {
+		sh 'printenv'
                 sh 'mvn clean install -DskipTests'
             }
             post {
