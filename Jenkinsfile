@@ -2,9 +2,9 @@ pipeline {
     
 	agent any
 	
-	tools {
+	/*tools {
         maven "M3"
-    }
+    }/*
 
     environment {
         NEXUS_VERSION = "nexus3"
